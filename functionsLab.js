@@ -33,6 +33,12 @@ console.log(`Two times four to the power of five is: ${numOneTimesNumTwoToThePow
 // 5. Write a function with 1 parameter that:
 //  - Converts Celsius to Fahrenheit.
 //  - The formula to convert Celsius to Fahrenhiet: F = (C * 1.8) + 32
+function celsiusToFahrenheit(tempCelsius) {
+    return (tempCelsius * 1.8) + 32
+}
+// uncomment this to test celsiusToFahrenheit
+// console.log(`0 C is ${celsiusToFahrenheit(0)}`);
+// console.log(`100 C is ${celsiusToFahrenheit(100)}`);
 
 // 6. Write a function with 1 parameter that:
 //  - Takes a word and consoles the letters in alphabetical order.
